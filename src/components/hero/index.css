@@ -1,0 +1,16 @@
+.heroCard {
+    margin: 0 16px;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    transition: .3s ease;
+    user-select: none;
+}
+
+.heroCard:hover {
+    background-color: #eee;
+}
+
+.heroName {
+    font-size: 16px;
+    font-weight: 700;
+}
