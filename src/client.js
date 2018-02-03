@@ -7,7 +7,7 @@ const client = new ApolloClient({
   //  `/graphql` endpoint on the same host
   // Pass the configuration option { uri: YOUR_GRAPHQL_API_URL } to the `HttpLink` to connect
   // to a different host
-  link: new HttpLink({ uri: 'http://vps113957.vps.ovh.ca/heroes-of-the-storm-api/graphql' }),
+  link: new HttpLink({ uri: 'http://207.246.117.229/heroes-of-the-storm/graphql' }),
   cache: new InMemoryCache(),
 });
 export default client;
